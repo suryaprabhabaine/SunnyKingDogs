@@ -130,11 +130,13 @@
 
 .top-header {
     display: flex;
+    justify-content: space-between;  /* LEFT + RIGHT */
     align-items: center;
     background: #111;
     padding: 10px 40px;
     color: white;
     font-size: 14px;
+    flex-wrap: wrap;
 }
 
 /* Push contact section to right */
@@ -149,7 +151,6 @@
 .top-left {
     color: gold;
     font-weight: 600;
-    letter-spacing: 0.5px;
 }
 
 /* Social Icons */
@@ -185,7 +186,7 @@
 
 /* Hover Effect */
 .contact-info a:hover {
-    color: #ff9800;
+     color: #ff9800;
 }
 
 .location {
